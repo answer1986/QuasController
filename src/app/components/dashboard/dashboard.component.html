@@ -1,0 +1,31 @@
+<div class="div">
+    <header class="row" id="containers">
+        <div class="col-4">
+            <img src="./assets/img/Logo-color.png" alt="Bootstrap" id="logors">
+        </div>
+        <div class="col" id="header">
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" >
+            <li><a href="#" class="nav-link px-2 link-secondary">Tablero</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Proyecto</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Planes de accion</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Mas</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-8" id="parrafo-header">
+            <h2>Sistema de control integrado</h2>
+        </div> 
+        <div class="col">
+            
+        </div>
+
+
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2" (click)="logOut()">LogOut</button>   
+        </div>
+    </header>
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Bienvenido!</h1>
+        <p class="fs-5 text-muted">{{ dataUser?.email }}</p>
+      </div>
+  </div>

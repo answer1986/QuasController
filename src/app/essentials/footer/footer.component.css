@@ -1,0 +1,22 @@
+.footer{
+    background-color: rgb(146, 207, 146);
+    margin-top: 0%;
+    height: 60px;
+    
+}
+
+#footer-caja4{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue;
+}
+
+#foto-footer{
+    width: 36%;
+    padding-top: 5px;
+    padding-left: 20%;
+    
+
+}

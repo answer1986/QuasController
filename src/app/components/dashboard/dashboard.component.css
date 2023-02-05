@@ -1,0 +1,23 @@
+#header{
+    background-color: rgb(146, 207, 146);
+    margin-top: 5%;
+    color: aliceblue;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#logors{
+    width: 40%;
+}
+
+#containers{
+    background-color: rgb(146, 207, 146);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+#parrafo-header{
+    margin-left: 10px;
+    color: aliceblue;
+}

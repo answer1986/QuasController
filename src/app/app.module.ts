@@ -19,6 +19,17 @@ import { SpinnerComponent } from './shared/spinner/spinner.component';
 
 import { environment } from 'src/environments/environment';
 import { FooterComponent } from './essentials/footer/footer.component';
+import { TableroComponent } from './tablero/tablero.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { LayoutModule } from '@angular/cdk/layout';
+import { ManualComponent } from './manual/manual.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -29,7 +40,9 @@ import { FooterComponent } from './essentials/footer/footer.component';
     VerificarCorreoComponent,
     RecuperarPasswordComponent,
     SpinnerComponent,
-    FooterComponent
+    FooterComponent,
+    TableroComponent,
+    ManualComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +50,7 @@ import { FooterComponent } from './essentials/footer/footer.component';
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserAnimationsModule, // required animations module
-    ToastrModule.forRoot(), // ToastrModule added
+    ToastrModule.forRoot(), MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule, LayoutModule, MatToolbarModule, MatSidenavModule, MatListModule, // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]
